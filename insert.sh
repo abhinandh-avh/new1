@@ -3,7 +3,7 @@ generate_name() {
     name=()
     generate_data  
     for ((i=0; i<${#data[@]}; i++)); do
-        for ((j=1; j<2000; j++)); do  
+        for ((j=1; j<200; j++)); do  
             name+=("${data[i]}${j}")
         done
     done
